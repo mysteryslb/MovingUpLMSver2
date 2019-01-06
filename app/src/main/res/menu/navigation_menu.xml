@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile_icon"/>
+
+    <item
+        android:id="@+id/nav_shsprograms"
+        android:title="SHS Programs"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/nav_schools"
+        android:title="All Schools"
+        android:icon="@drawable/friends"/>
+
+    <item
+        android:id="@+id/nav_find_schools"
+        android:title="Find Schools"
+        android:icon="@drawable/find_people"/>
+
+    <item
+        android:id="@+id/nav_aboutus"
+        android:title="About Us"
+        android:icon="@drawable/messages"/>
+
+
+    <item
+        android:id="@+id/nav_Logout"
+        android:title="Logout"
+        android:icon="@drawable/logout"/>
+</menu>

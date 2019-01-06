@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUserActivity"
+    android:background="@drawable/bg1">
+
+    <TextView
+        android:id="@+id/textTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="false"
+        android:text="Moving Up"
+        android:textSize="40sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/textREmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle1"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/textviewshape"
+        android:ems="10"
+        android:drawableLeft="@drawable/et_email"
+        android:drawablePadding="5dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        />
+
+    <EditText
+        android:id="@+id/textRPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textREmail"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:drawableLeft="@drawable/et_password"
+        android:drawablePadding="8dp"
+        android:background="@drawable/textviewshape"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/textRConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textRPassword"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:drawableLeft="@drawable/et_password"
+        android:drawablePadding="8dp"
+        android:background="@drawable/textviewshape"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textRConfirmPassword"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/signupbuttonshape"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/btnRLoginFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegister"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="25dp"
+        android:background="#5dc1c6"
+        android:drawableLeft="@drawable/btn_icon_fb"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:textAlignment="textStart"
+        android:text="Register Account with Facebook" />
+
+    <Button
+        android:id="@+id/btnRLoginGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRLoginFacebook"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:background="#d6887a"
+        android:drawableLeft="@drawable/btn_icon_google"
+        android:drawablePadding="15dp"
+        android:paddingLeft="20dp"
+        android:textAlignment="textStart"
+        android:text="Register Account with Google" />
+</RelativeLayout>

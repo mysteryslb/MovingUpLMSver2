@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "352547459814",
+    "firebase_url": "https://student-dfad2.firebaseio.com",
+    "project_id": "student-dfad2",
+    "storage_bucket": "student-dfad2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352547459814:android:32648dfde6732ed8",
+        "android_client_info": {
+          "package_name": "com.example.asus.movinguplms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352547459814-btljf3004th9uohb14n1hfg24k9i7qt6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.movinguplms",
+            "certificate_hash": "c54f50be18a098bef1227c04a7e3ac6a902a4d2f"
+          }
+        },
+        {
+          "client_id": "352547459814-ln9rm819rme7c7cf4hksbpkmkk94qohf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF-1nzAcySYAUd-P84FHUx2sU-8L-6mns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352547459814-ln9rm819rme7c7cf4hksbpkmkk94qohf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352547459814:android:534354b9632437ad",
+        "android_client_info": {
+          "package_name": "com.gmail.plmcpesar.k12schoolsearc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352547459814-cmj0uj6k0fk2qea3mo24063k9du5hfbu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gmail.plmcpesar.k12schoolsearc",
+            "certificate_hash": "12e4a141b5e2d3eef09455b61f630349c3b8bb0e"
+          }
+        },
+        {
+          "client_id": "352547459814-ln9rm819rme7c7cf4hksbpkmkk94qohf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF-1nzAcySYAUd-P84FHUx2sU-8L-6mns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352547459814-ln9rm819rme7c7cf4hksbpkmkk94qohf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352547459814:android:2d63b73c81528377",
+        "android_client_info": {
+          "package_name": "com.gmail.plmcpesar.k12schoolsearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352547459814-ln9rm819rme7c7cf4hksbpkmkk94qohf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF-1nzAcySYAUd-P84FHUx2sU-8L-6mns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
