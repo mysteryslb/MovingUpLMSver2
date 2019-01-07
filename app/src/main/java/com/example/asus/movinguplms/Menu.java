@@ -35,7 +35,7 @@ public class Menu extends AppCompatActivity {
     private TextView NavProfileUserName;
     private FloatingActionButton mFab;
 
-    private ImageButton viewLearn;
+    private ImageButton viewLearn, viewDiscover;
 
     private FirebaseAuth mAuth;
     private DatabaseReference UsersRef, PostsRef;
@@ -108,11 +108,19 @@ public class Menu extends AppCompatActivity {
         });
 
         viewLearn = (ImageButton) findViewById(R.id.btnshsprograms);
+        viewDiscover = (ImageButton) findViewById(R.id.btndiscover);
 
         viewLearn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 SendToLearnActivity();
+            }
+        });
+
+        viewDiscover.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SendToDiscoverActivity();
             }
         });
     }
@@ -212,5 +220,10 @@ public class Menu extends AppCompatActivity {
     private void SendToLearnActivity() {
         Intent learnIntent = new Intent(Menu.this, LearnActivity.class);
         startActivity(learnIntent);
+    }
+
+    private void SendToDiscoverActivity() {
+        Intent discoverIntent = new Intent(Menu.this, DiscoverActivity.class);
+        startActivity(discoverIntent);
     }
 }

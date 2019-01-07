@@ -31,13 +31,27 @@
             android:theme="@style/MainTheme" />
         <activity android:name=".RegisterUserActivity" />
         <activity android:name=".CreateUserProfileActivity" />
-        <activity
-            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-            android:theme="@style/Base.Theme.AppCompat" />
         <activity android:name=".LearnActivity" />
         <activity android:name=".LearnSHSTracksActivity" />
         <activity android:name=".LearnAcademicStrandsAcivity" />
-        <activity android:name=".DiscoverActivity"></activity>
+        <activity android:name=".DiscoverActivity" />
+        <activity android:name=".DiscoverSchoolsOnListActivity" />
+        <activity android:name=".DiscoverSchoolsOnMapsActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBipFR3oX7tAbPfYrL4GIZ-PdDBQ3AK_Yw" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".SHSSchoolMapsActivity"
+            android:label="@string/title_activity_school_search_map" />
+        <activity android:name=".DiscoverSchoolsSearchActivity"></activity>
     </application>
 
 </manifest>

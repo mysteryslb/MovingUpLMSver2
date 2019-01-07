@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/selectionmap"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:id="@+id/nearby1_bottomnavigation"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:background="#66FFFFFF">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:id="@+id/academic_nearby"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#66047ac8"
+                            android:adjustViewBounds="true"
+                            android:text="Academic"
+                            android:layout_gravity="center"
+                            android:onClick="onClick"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:id="@+id/tvl_nearby"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#66915303"
+                            android:adjustViewBounds="true"
+                            android:text="TVL"
+                            android:layout_gravity="center"
+                            android:onClick="onClick"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:id="@+id/sports_nearby"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#6661d204"
+                            android:adjustViewBounds="true"
+                            android:text="SPORTS"
+                            android:layout_gravity="center"
+                            android:onClick="onClick"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:id="@+id/arts_nearby"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#66cd040e"
+                            android:adjustViewBounds="true"
+                            android:text="ARTS/DESIGN"
+                            android:textSize="13sp"
+                            android:layout_gravity="center"
+                            android:onClick="onClick"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nearby2_bottomnavigation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#66FFFFFF"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/allschools_nearby"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#6623fbf0"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:onClick="onClick"
+                            android:text="ALL"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/publicschools_nearby"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#9F030faa"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:onClick="onClick"
+                            android:text="PUBLIC" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/privateschools_nearby"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#66dc04b1"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:onClick="onClick"
+                            android:text="PRIVATE" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/search_nearby"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#6623fbf0"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:onClick="onClick"
+                            android:text="NEARBY" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map" android:layout_below="@id/place_autocomplete" android:layout_above="@id/selectionmap"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SHSSchoolMapsActivity" />
+
+    <fragment
+        android:id="@+id/place_autocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment">
+        <requestFocus/>
+    </fragment>
+
+
+</RelativeLayout>
