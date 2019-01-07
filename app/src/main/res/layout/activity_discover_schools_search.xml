@@ -1,9 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DiscoverSchoolsSearchActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:theme="@style/MainTheme">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/searchselection_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#66FFFFFF"
+            android:theme="@style/MainTheme">
+
+
+            <EditText
+                android:id="@+id/searchselection_text"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:background="#66FFFFFF"
+                android:ems="10"
+                android:hint="eg. ACCESS, Adamson..."
+                android:imeOptions="actionSearch"
+                android:inputType="textAutoComplete"
+                android:padding="8dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btn_schoolsearch"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:scaleType="fitXY"
+                android:layout_toRightOf="@id/searchselection_text"
+                android:src="@drawable/ic_action_search" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/search_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/appbar"
+        android:background="#00000000">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/classifiedsearchlist_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="0dp"
+            android:paddingTop="0dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiscoverSchoolContentActivity">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="#66DEEFF5">
+
+        <ImageView
+            android:id="@+id/content_schoolimage"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg1"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="75dp"
+            android:orientation="horizontal">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/content_schoollogo"
+                android:layout_width="117dp"
+                android:layout_height="84dp"
+                android:layout_margin="2dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/profile" />
+
+        </RelativeLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/content_secondframe"
+        android:layout_below="@id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:orientation="vertical"
+        android:background="#66DEEFF5">
+
+        <TextView
+            android:id="@+id/content_schoolname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:text="School Name"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/content_schooltype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:text="Location"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/content_schoollocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:text="School Type"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="13sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/content_secondframe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/schoolcontent_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF">
+        <TextView
+            android:id="@+id/schoolcontent_overview"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#67818A"
+            android:text="OVERVIEW"
+            android:textColor="#66FFFFFF"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+
+                    <TextView
+                        android:id="@+id/content_averagetutionfee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Average Tuition Fee: "
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/content_averagetutionfeevalue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Average Tuition Fee: "
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/content_aboutschool"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="About"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_aboutschooldescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="School Type"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/content_featuredfacilities"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Featured Facilities"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:id="@+id/content_featuredfacilitiesimages"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="3dp"
+                    android:scaleType="fitXY"/>
+                <TextView
+                    android:id="@+id/content_dresscode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Dress Code"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:id="@+id/content_dresscodeimages"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="3dp"
+                    android:scaleType="fitXY"/>
+                <TextView
+                    android:id="@+id/content_contactdetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Contact Details"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+
+                    <TextView
+                        android:id="@+id/content_telephonenumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Telephone Number: "
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/content_telephonenumberdetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Telephone Number: "
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="13sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+
+                    <TextView
+                        android:id="@+id/content_website"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Website: "
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/content_websitedetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Average Tuition Fee: "
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="13sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+
+                    <TextView
+                        android:id="@+id/content_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Email: "
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/content_emaildetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Average Tuition Fee: "
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="13sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/schoolcontent_programs_offered"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#67818A"
+            android:text="PROGRAM OFFERS"
+            android:textColor="#66FFFFFF"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+
+                    <TextView
+                        android:id="@+id/content_trackstrandavailable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Track and Strand available: "
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/content_acadtrack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="ACADEMIC TRACK"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_acadtrackcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Academic Strand"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/content_tvltrack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:text="TVL TRACK"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_tvltrackcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="TVL Strand"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/content_sporttrack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:text="SPORTS TRACK"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_sporttrackcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Sport Strand"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/content_artsanddesigntrack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:text="ARTS AND DESIGN TRACK"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_artsanddesigntrackcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Arts and Design Strand"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/schoolcontent_admission"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#67818A"
+            android:text="ADMISSION"
+            android:textColor="#66FFFFFF"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/content_admissionrequirements"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Requirements "
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_requirementslist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Requirement List "
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/content_admissionprocedures"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Procedures"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_procedurelist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Procedure List"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/content_admissiontestfee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Admission Test Fee"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/content_testfeevalue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Admission Test Fee "
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

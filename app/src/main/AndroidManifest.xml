@@ -51,7 +51,8 @@
         <activity
             android:name=".SHSSchoolMapsActivity"
             android:label="@string/title_activity_school_search_map" />
-        <activity android:name=".DiscoverSchoolsSearchActivity"></activity>
+        <activity android:name=".DiscoverSchoolsSearchActivity" />
+        <activity android:name=".DiscoverSchoolContentActivity"></activity>
     </application>
 
 </manifest>

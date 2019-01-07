@@ -231,6 +231,9 @@ public class DiscoverSchoolsOnListActivity extends AppCompatActivity {
                 viewHolder.mView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        Intent clickSchoolInfoDisplayIntent = new Intent(DiscoverSchoolsOnListActivity.this, DiscoverSchoolContentActivity.class);
+                        clickSchoolInfoDisplayIntent.putExtra("DisplayKey", DisplayKey);
+                        startActivity(clickSchoolInfoDisplayIntent);
                     }
                 });
 
